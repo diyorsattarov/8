@@ -1,0 +1,36 @@
+# Ignore object and binary files
+*.o
+*.out
+*.a
+*.so
+
+# Ignore build directories
+/build/
+bin/
+obj/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.dylib
+
+# Ignore dependency files
+*.d
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+*.log
+
+# Node.js modules (for JavaScript projects)
+node_modules/
+
+# Ignore generated HTML/CSS files from build tools
+*.css.map
+*.js.map
+
+# Ignore Makefile artifacts
+Makefile~
